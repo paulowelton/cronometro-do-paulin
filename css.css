@@ -1,0 +1,26 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  text-align: center;
+  padding-top: 100px;
+}
+
+#tempo {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+#botoes button {
+  font-size: 18px;
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: rgb(87, 87, 248);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#botoes button:disabled {
+  background-color: #999999;
+  cursor: not-allowed;
+}
